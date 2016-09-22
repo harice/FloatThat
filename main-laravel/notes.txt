@@ -1,0 +1,25 @@
+
+CREATING A FLOAT.
+- Change participants to odds, and "dropdown".
+- Use Date time instead of only date.
+
+
+FLOW DETAILS
+- Invited
+- Pending
+- Accepted
+
+FLOW ACTIONS
+- FLOAT ITEM
+- GROUP PURCHASE
+- BUY NOW
+
+
+
+ACCEPT INVITE FLOW.
+
+-> EMAIL LINK
+-> ACCEPT INVITE (with description and buy now)
+-> REGISTERED?
+-> DETAILS
+-> PAY

@@ -1,0 +1,84 @@
+/* CSS Document */
+* { margin:0; padding:0; outline:none;}
+img { border:none;}
+body { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+@font-face {
+font-family: "SF Burlington Script Bold";
+src: url("SF_Burlington_Script_Bold.ttf");
+}
+
+.wrapper { width:808px; display:table;}
+.header { background:url(images/header-bg.jpg) no-repeat; width:808px; height:77px; float:left;}
+.logo { background:url(images/logo.png) no-repeat; width:251px; height:46px; float:left; margin:14px 0 0 40px;}
+.social { float:right; padding:20px 20px 0 0;}
+.social a { float:left; margin-right:10px;}
+
+.banner { float:left;}
+.boxes { margin:0 auto; display:table; padding-top:22px;}
+.boxes a { border:1px #e5e7e9 solid; border-radius:3px; float:left; margin-left:7px; width:234px; height:93px;}
+.boxes a img { margin:0 auto; display:table;}
+
+.products { width:722px; margin:0 auto; display:table; padding:25px 0 38px 0;}
+.title { background:url(images/products.png) no-repeat; width:91%; height:28px; float:left; margin-left:7px;}
+.view { float:right; font-size:12px; color:#3c3c3c; text-decoration:none; margin:10px 2px 0 0;}
+.product { float:left; width:219px; height:258px; border:1px #e5e5e5 solid; margin:14px 0 0 4px;}
+.product-bg { float:left; width:217px; height:256px; border:1px #fff solid; background:#f7f7f7;}
+.product-bg div { width:201px; height:240px; float:left; margin:8px; background:url(images/p-contnts.png) repeat-x;}
+.product-bg div img { margin:0 auto; display:table; padding-top:20px;}
+.bordr { width:180px; height:1px; background:#e9e9e9; margin:0 auto; display:table; margin-top:15px;}
+.product-bg div h1 { float:left; font-size:15px; color:#2e6b8c; padding:13px 0 0 13px;}
+.product-bg div a { background:url(images/detail.png) no-repeat; width:75px; height:22px; float:left; margin:22px 0 0 11px; clear:left;}
+.product-bg div p { float:right; font-size:11px; color:#8b8b8b; padding:10px 10px 0 0;}
+.product-bg div p strong{ color:#f23b3b; font-size:30px; font-family:SF Burlington Script Bold;}
+.shadow { background:url(images/p-shadow.png) no-repeat; width:221px; height:28px; float:left; margin-top:1px;}
+
+.detailbutton{background:url(images/detail.png) no-repeat; width:75px; height:22px; float:left; margin:22px 0 0 11px; clear:left;}
+
+.footer { width:738px; height:29px; float:left; background:url(images/footer-bg.png) repeat-x; padding:15px 35px 0 35px;}
+.footer a { float:left; text-decoration:none; font-size:13px; color:#fff; padding-right:8px;}
+.footer a:hover { text-decoration:underline;}
+.footer span { font-size:9px; color:#fff; float:left; padding-right:8px;}
+.footer p { float:right; font-size:11px; color:#fff;}
+
+
+/*Detail Page*/
+.p-detail { float:left; width:100%; padding-bottom:80px;}
+.p-view { float:left; width:286px;}
+
+
+
+.details { float:right; width:485px; padding:40px 0 0 15px;}
+.p-title { font-size:36px; color:#8e3925; float:left; font-family:Arial, Helvetica, sans-serif;}
+.price { float:left; font-size:11px; color:#8b8b8b; clear:left;}
+.price strong{ color:#f23b3b; font-size:30px; font-family:SF Burlington Script Bold;}
+.description { font-size:12px; color:#9a9a9a; float:left; clear:left; padding:15px 0;}
+
+.share { float:left; background:url(images/share.png) no-repeat; width:76px; height:23px; margin-top:15px;}
+.like { float:left; background:url(images/like.png) no-repeat; width:318px; height:23px; margin:15px 0 0 15px;}
+.invite { float:left; background:url(images/invite.png) no-repeat; width:142px; height:33px; clear:left; margin-top:15px;}
+
+
+
+/*History Page*/
+.personal-info { margin:25px auto; display:table; background:#f5f5f5; border:1px #e5e5e5 solid; width:650px; height:155px;}
+.personal-info p { font-size:20px; color:#c7c5c5; text-align:center; padding-top:60px;}
+
+.p-history { width:575px; margin:0 auto; display:table;}
+.p-history h2 { float:left; font-size:25px; color:black; font-weight:normal;}
+.p-history div { float:left; clear:left; padding-top:10px;}
+.p-history div a { float:left; width:175px; height:125px; border:1px #e5e5e5 solid;}
+.p-history div a img { margin:0 auto; display:table;}
+
+.p-history div .p-title { font-size:20px; color:#8e3925; float:left; font-family:Arial, Helvetica, sans-serif; padding:10px 0 0 15px; width:66%;}
+.p-history div .price { float:left; font-size:11px; color:#8b8b8b; clear:none; padding-left:15px; width:66%;}
+.p-history div .price strong{ color:#f23b3b; font-size:20px; font-family:SF Burlington Script Bold;}
+.p-history div .description { font-size:11px; color:#9a9a9a; float:left; clear:none; padding:0 0 0 15px; width:383px;}
+
+.ph-border { float:left; margin:20px 0 10px 5px; background:url(images/ph-border.png) no-repeat; width:570px; height:1px;}
+
+.pagenav { width:650px; height:36px; margin:25px auto; display:table; background:url(images/pagenav-bg.png) repeat-x; border:1px #e5e5e5 solid;}
+.pagenav span { float:left; color:#9a9a9a; font-size:14px; padding:8px 0 0 35px}
+.pagenav div { float:right; padding-right:30px;}
+.pagenav div span { float:left; color:black; font-size:14px;}
+.pagenav div a { float:left; margin-top:6px; padding-left:8px; color:black; font-weight:bold; text-decoration:none;}
+.pagenav div a:hover { color:#ba0101;}

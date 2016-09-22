@@ -1,0 +1,161 @@
+/*============== product filter style ================*/
+div.products_filter {
+	padding:3px 8px;
+	/*background:url('../images/icons/bg_dotted.png') repeat 50% top;*/
+}
+div.products_filter div.filter_content {
+	padding:10px 12px 3px 12px;
+	background-color:#fff;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	margin-bottom:15px;
+
+}
+/*========== Category & sort & number view style =========*/
+div.filter_content div.pro_category,
+div.filter_content div.pro_sort,
+div.filter_content div.pro_number {
+	float:left;
+	margin-right:16px;
+}
+div.filter_content div.pro_category strong,
+div.filter_content div.pro_sort strong,
+div.filter_content div.pro_number strong {
+	float: left;
+	padding:7px 0;
+	margin-right:6px;
+	font-size: 12px;
+	font-weight: 400;
+	color:#777;
+	text-transform: uppercase;
+}
+div.filter_content div.pro_category form,
+div.filter_content div.pro_sort form,
+div.filter_content div.pro_number form {
+	float:left;
+}
+/*===== end them ======*/
+
+/*============ pro_compare ===============*/
+div.filter_content div.pro_compare {
+	float:left;
+	padding:7px 0;
+}
+div.filter_content div.pro_compare a {
+	font-weight: 600;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+div.filter_content div.pro_compare a span {
+	font-weight: 700;
+}
+/*======== end ==========*/
+
+
+
+/*======================= grid & list view =============*/
+div.filter_content div.pro_switch {
+	float:right;
+	padding:7px 0 0;
+}
+div.filter_content div.pro_switch a {
+	text-indent:-999999px;
+	width:24px;
+	height:24px;
+	display: inline-block;
+	background: url('../images/icons/switch_view.png') no-repeat;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=50);
+	opacity: .5;
+}
+div.filter_content div.pro_switch a:hover,
+div.filter_content div.pro_switch a.active_view {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+div.filter_content div.pro_switch a.active_view{
+	cursor:default;
+}
+div.filter_content div.pro_switch a.grid_view {
+	background-position: 0 -24px;
+}
+div.filter_content div.pro_switch a.list_view {
+	background-position: -24px -24px;
+}
+/*============ end it ==========*/
+
+
+
+
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	ul.product_show li div.img {
+		height:161px;
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	ul.product_show li {
+		width:200px !important;
+		margin:30px 5px 0 !important;
+		display: block;
+		float:left;
+	}
+	ul.product_show li div.img {
+		height:189px !important;
+	}
+
+
+	div.pagination {
+		text-align: left;
+	}
+	div.pagination a:link, div.pagination a:visited {
+		margin:0 1px;
+		padding:4px 10px;
+	}
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+
+	ul.product_show li {
+		width:298px !important;
+		margin:30px 0 0 !important;
+		display: block;
+	}
+	ul.product_show li div.img {
+		height:261px !important;
+	}
+
+
+	div.pagination {
+		text-align: left;
+	}
+	div.pagination a:link, div.pagination a:visited {
+		margin:0 1px;
+		padding:3px 8px;
+	}
+	div.pagination a.text {
+		display: none;
+	}
+
+
+}

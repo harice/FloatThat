@@ -1,0 +1,80 @@
+<?php $__env->startSection('title'); ?>
+  Please confirm your information
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="panel panel-default">
+				<div class="panel-heading">Registering a new user - Please confirm all your information.</div>
+				<div class="panel-body">
+					<?php if(count($errors) > 0): ?>
+						<div class="alert alert-danger">
+							<strong>Whoops!</strong> There were some problems with your input.<br><br>
+							<ul>
+								<?php foreach($errors->all() as $error): ?>
+									<li><?php echo e($error); ?></li>
+								<?php endforeach; ?>
+							</ul>
+						</div>
+					<?php endif; ?>
+
+					<form class="form-horizontal" role="form"
+                method="POST" action="<?php echo e(url('/user/confirm/save')); ?>">
+						<input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
+
+            <?php if(isset($twitter_provider_id)): ?>
+              <input type="hidden" name="twitter_provider_id"
+                     value="<?php echo e($twitter_provider_id); ?>">
+            <?php endif; ?>
+            <?php if(isset($facebook_provider_id)): ?>
+              <input type="hidden" name="facebook_provider_id"
+                     value="<?php echo e($facebook_provider_id); ?>">
+            <?php endif; ?>
+
+            <div class="form-group">
+							<label class="col-md-4 control-label">Picture</label>
+							<div class="col-md-6">
+                <input type="hidden" name="avatar" value="<?php echo e($avatar); ?>" />
+                <img src="<?php echo e($avatar); ?>" width="80" />
+							</div>
+						</div>
+
+            <?php if(isset($twitter_nickname)): ?>
+              <div class="form-group">
+							  <label class="col-md-4 control-label">Twitter Username</label>
+							  <div class="col-md-6">
+                  <p class="form-control-static">&#64;<?php echo e($twitter_nickname); ?></p>
+							  </div>
+						  </div>
+            <?php endif; ?>
+
+            <div class="form-group">
+							<label class="col-md-4 control-label">Name</label>
+							<div class="col-md-6">
+								<input type="text" class="form-control" name="name" value="<?php echo e($name); ?>">
+							</div>
+						</div>
+
+            <div class="form-group">
+							<label class="col-md-4 control-label">E-Mail Address</label>
+							<div class="col-md-6">
+								<input type="email" class="form-control" name="email" value="<?php echo e($email); ?>">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-md-6 col-md-offset-4">
+                <button type="submit" class="btn btn-group btn-default btn-animated">Confirm & Register <i class="fa fa-envelope"></i></button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

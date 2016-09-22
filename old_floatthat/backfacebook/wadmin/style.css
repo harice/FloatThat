@@ -1,0 +1,111 @@
+/* CSS Document */
+
+.heading{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:16px;
+			color:#FFFFFF;
+			font-weight:bold;
+}
+
+.bheading{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:16px;
+			color:#000000;
+			font-weight:bold;
+}
+.categories{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#FFFFFF;
+			text-decoration:none;
+}
+a.categories:hover{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#FFFFFF;
+			text-decoration:underline;
+}
+.buttons{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:14px;
+			color:#000000;
+			text-decoration:none;
+}
+a.buttons:hover{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:14px;
+			color:#000000;
+			text-decoration:underline;
+}
+.copy{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:12px;
+			color:#000000;
+
+}
+
+
+.para{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#666666;
+		text-align:justify;
+		line-height:17px;
+		padding:0px 10px 0px 10px;
+		
+}
+
+
+
+.tdbord{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#666666;
+		text-align:justify;
+		line-height:17px;
+		padding:0px 10px 0px 10px;
+		border:solid 1px; border-color:#CCCCCC;
+		font-weight:bold;
+}
+.tdtext{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#666666;
+		text-align:justify;
+		line-height:17px;
+		padding:0px 10px 0px 10px;
+		border:solid 1px; border-color:#CCCCCC;
+		
+}
+
+.readmore{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		color:#FF6600;
+		padding:0px 10px 0px 0px;
+}
+
+.textBox{
+
+border:1px solid #fff; background-color:#DFDFDF; color:#000; font-size:14px; width:200px;
+
+}
+
+.button{
+
+border:1px solid #fff; background-color:#FF0000; color:#FFFFFF; font-size:14px; width:150px;
+
+}
+.mond
+{
+color:#FF0000;
+}
+
+.TEXTheading{
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-size:13px;
+			color:#003366;
+			font-weight:bold;
+			line-height:17px;
+		    padding:0px 10px 0px 10px;
+}

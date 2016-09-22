@@ -1,0 +1,1 @@
+<span class="para">Copy rights &copy; All rights reserved 2012</span> 

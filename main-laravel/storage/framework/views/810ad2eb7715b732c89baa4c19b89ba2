@@ -1,0 +1,98 @@
+<?php if(Auth::check()): ?>
+  <?php if(Auth::user()->id == $deal->user_id): ?>
+    <br />
+    <h3>INVITATIONS DETAILS</h3>
+    <hr>
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs style-4" role="tablist">
+      <li class="active"><a href="#h2tab1" role="tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-files-o pr-5"></i>Accepted</a></li>
+      <li><a href="#h2tab2" role="tab" data-toggle="tab" aria-expanded="true"><i class="fa fa-files-o pr-5"></i>Pending</a></li>
+			<li class=""><a href="#h2tab3" role="tab" data-toggle="tab" aria-expanded="false"><i class="fa fa-star pr-5"></i>Declined</a></li>
+
+		</ul>
+		<!-- Tab panes -->
+		<div class="tab-content padding-top-clear padding-bottom-clear">
+
+      <div class="tab-pane fade active in" id="h2tab1">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Email Address</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php for($i = 0; $i < count($accepted); $i++): ?>
+                <tr>
+                  <td><?php echo e($i+1); ?></td>
+                  <td><?php echo e($accepted[$i]->email_address); ?></td>
+                </tr>
+              <?php endfor; ?>
+              <?php if(count($accepted) == 0): ?>
+                <tr>
+                  <td colspan="2">No one has accepted yet.</td>
+                </tr>
+              <?php endif; ?>
+            </tbody>
+          </table>
+        </div>
+			</div>
+
+      <div class="tab-pane fade in" id="h2tab2">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Email Address</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php for($i = 0; $i < count($pending); $i++): ?>
+                <tr>
+                  <td><?php echo e($i+1); ?></td>
+                  <td><?php echo e($pending[$i]->email_address); ?>
+
+                </tr>
+              <?php endfor; ?>
+              <?php if(count($pending) == 0): ?>
+                <tr>
+                  <td colspan="2">There are no pending invites.</td>
+                </tr>
+              <?php endif; ?>
+            </tbody>
+          </table>
+        </div>
+
+			</div>
+
+			<div class="tab-pane fade" id="h2tab3">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Email Address</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php for($i = 0; $i < count($declined); $i++): ?>
+                <tr>
+                  <td><?php echo e($i+1); ?></td>
+                  <td><?php echo e($declined[$i]->email_address); ?>
+
+                </tr>
+              <?php endfor; ?>
+              <?php if(count($declined) == 0): ?>
+                <tr>
+                  <td colspan="2">No one has declined yet.</td>
+                </tr>
+              <?php endif; ?>
+            </tbody>
+          </table>
+        </div>
+			</div>
+		</div>
+  <?php endif; ?>
+<?php endif; ?>
