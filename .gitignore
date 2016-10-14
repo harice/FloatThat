@@ -1,0 +1,6 @@
+main-laravel/vendor
+main-laravel/storage/*
+main-laravel/bootstrap/*
+main-laravel/.env
+main-laravel/composer.phar
+public_html
