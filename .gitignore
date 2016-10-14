@@ -1,3 +1,4 @@
+.DS_Store
 main-laravel/vendor
 main-laravel/storage/*
 main-laravel/bootstrap/*
