@@ -1,0 +1,47 @@
+[09-Nov-2015 06:14:46 UTC] PHP Warning:  require(/home/floatthatnew/main-laravel/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/floatthatnew/main-laravel/bootstrap/autoload.php on line 17
+[09-Nov-2015 06:14:46 UTC] PHP Fatal error:  require(): Failed opening required '/home/floatthatnew/main-laravel/bootstrap/../vendor/autoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/floatthatnew/main-laravel/bootstrap/autoload.php on line 17
+[09-Nov-2015 06:28:23 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:28:26 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:28:29 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:28:48 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:29:17 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:29:18 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:29:21 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:29:22 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:29:23 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:29:23 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:31:38 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:31:45 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:32:01 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:32:31 UTC] PHP Warning:  require(/home/floatthatnew/public_html/../../main-laravel/bootstrap/autoload.php): failed to open stream: No such file or directory in /home/floatthatnew/public_html/index.php on line 21
+[09-Nov-2015 06:32:31 UTC] PHP Fatal error:  require(): Failed opening required '/home/floatthatnew/public_html/../../main-laravel/bootstrap/autoload.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/floatthatnew/public_html/index.php on line 21
+[09-Nov-2015 06:32:54 UTC] PHP Warning:  require_once(/home/floatthatnew/public_html/../../main-laravel/bootstrap/app.php): failed to open stream: No such file or directory in /home/floatthatnew/public_html/index.php on line 35
+[09-Nov-2015 06:32:54 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/floatthatnew/public_html/../../main-laravel/bootstrap/app.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/floatthatnew/public_html/index.php on line 35
+[09-Nov-2015 06:32:55 UTC] PHP Warning:  require_once(/home/floatthatnew/public_html/../../main-laravel/bootstrap/app.php): failed to open stream: No such file or directory in /home/floatthatnew/public_html/index.php on line 35
+[09-Nov-2015 06:32:55 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/floatthatnew/public_html/../../main-laravel/bootstrap/app.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/floatthatnew/public_html/index.php on line 35
+[09-Nov-2015 06:33:12 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:33:14 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:34:41 UTC] PHP Fatal error:  Class 'App\Repositories\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:34:43 UTC] PHP Fatal error:  Class 'App\Repositories\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:35:01 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:35:02 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:35:36 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:35:37 UTC] PHP Fatal error:  Class 'App\Invite' not found in /home/floatthatnew/main-laravel/app/Repositories/InviteRepository.php on line 38
+[09-Nov-2015 06:37:03 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 31
+[09-Nov-2015 06:37:05 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 31
+[09-Nov-2015 06:37:06 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 31
+[09-Nov-2015 06:37:15 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 31
+[09-Nov-2015 06:37:18 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 31
+[09-Nov-2015 06:37:22 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 20
+[09-Nov-2015 06:37:23 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 20
+[09-Nov-2015 06:37:52 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 20
+[09-Nov-2015 06:37:53 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 20
+[09-Nov-2015 06:37:53 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 20
+[09-Nov-2015 06:37:54 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 20
+[09-Nov-2015 06:44:53 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 20
+[09-Nov-2015 06:44:54 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 20
+[09-Nov-2015 06:45:59 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 20
+[09-Nov-2015 06:46:03 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 31
+[09-Nov-2015 06:46:07 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 24
+[09-Nov-2015 06:46:09 UTC] PHP Fatal error:  Class 'App\Deal' not found in /home/floatthatnew/main-laravel/app/Repositories/DealRepository.php on line 24
+[19-Dec-2015 09:44:22 UTC] PHP Fatal error:  Class 'App\Http\Controllers\InvalidConfirmationCodeException' not found in /home/floatthatnew/main-laravel/app/Http/Controllers/RegisterController.php on line 56

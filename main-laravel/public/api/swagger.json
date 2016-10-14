@@ -1,0 +1,44 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Floatthat API documentation",
+        "version": "1.0.0"
+    },
+    "host": "floatthat.loc",
+    "basePath": "/api",
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/registration": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Register a User",
+                "description": "Register a user to the system.",
+                "operationId": "registerUser",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Created user object",
+                        "required": false,
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}

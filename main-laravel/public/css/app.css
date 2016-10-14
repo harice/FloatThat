@@ -1,0 +1,111 @@
+#logo_img {
+    height: 55px;
+}
+
+#page_content {
+    margin-top: 20px;
+}
+
+#banner {
+    margin-top: -20px;
+}
+
+#featured {
+    margin: 40px 0px;
+}
+
+header .avatar {
+    height: 20px;
+    display: inline-block;
+}
+
+.mb-100 {
+    margin: 50px 0px;
+}
+
+.overlay-container {
+    height: 250px;
+    line-height: 250px;
+}
+
+.overlay-container.thumb {
+    height: 80px;
+    width: 60px;
+    line-height: 20px;
+}
+
+#float-details .float-image img {
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+.overlay-container.thumb img {
+    width: initial;
+    max-width: 95%;
+}
+
+.listing-item .thumb {
+    margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.listing-item .thumb img {
+    display: block;
+}
+
+.listing-item .form {
+    margin: 0;
+    padding: 0;
+}
+
+#invite-accept img {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#float-details form {
+    display: inline;
+}
+
+.organizer-avatar {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+#friend_list {
+    height: 400px;
+    overflow: scroll;
+
+    padding: 5px;
+    border: 1px solid #F1F1F1;
+}
+
+#friend_list .friend {
+    padding: 3px;
+    font-size: .85em;
+}
+
+#friend_list .friend:hover {
+    cursor: pointer;
+}
+
+#friend_list .selected {
+    background-color: #5BC0DE;
+
+    -webkit-box-shadow: 0px 0px 0px 1px #46B8DA;
+    box-shadow: 0px 0px 0px 1px #46B8DA;
+}
+
+#friend_list .selected a {
+    color: #FFF;
+}
+
+#friend_list .friend img {
+    padding-right: 5px;
+    vertical-align: middle;
+    width: 50px;
+}
