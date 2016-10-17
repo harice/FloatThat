@@ -1,9 +1,0 @@
-<?php if($isConnected): ?>
-  conectado
-
-<?php else: ?>
-  <h4>Your account is not yet connected to Facebook</h4>
-  <p>You need to connect Facebook before inviting your Facebook friends.</p>
-
-
-<?php endif; ?>

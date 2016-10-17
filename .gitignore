@@ -1,0 +1,12 @@
+.DS_Store
+main-laravel/vendor
+main-laravel/storage/*
+main-laravel/bootstrap/*
+main-laravel/.env
+main-laravel/composer.phar
+main-laravel/components/*
+public_html
+
+composer.phar
+composer.lock
+Thumbs.db
