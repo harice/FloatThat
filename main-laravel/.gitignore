@@ -1,2 +1,7 @@
-.env
 /storage
+/vendor
+/bootstrap/cache/
+/public
+.env.*.php
+.env.php
+.env
