@@ -1,22 +1,26 @@
 {
     "swagger": "2.0",
     "info": {
-        "title": "Floatthat API documentation",
+        "title": "Swagger Floatthat",
+        "description": "Swagger Floatthat",
+        "contact": {
+            "email": "harice.quinanola@elementzinteractive.com"
+        },
         "version": "1.0.0"
     },
     "host": "floatthat.loc",
-    "basePath": "/api",
+    "basePath": "",
     "schemes": [
         "http"
     ],
     "paths": {
-        "/registration": {
+        "/register": {
             "post": {
                 "tags": [
                     "user"
                 ],
-                "summary": "Register a User",
-                "description": "Register a user to the system.",
+                "summary": "Register user",
+                "description": "Register user to the system.",
                 "operationId": "registerUser",
                 "produces": [
                     "application/json"
@@ -26,7 +30,7 @@
                         "name": "body",
                         "in": "body",
                         "description": "Created user object",
-                        "required": false,
+                        "required": true,
                         "schema": {
                             "$ref": "#/definitions/User"
                         }
@@ -38,7 +42,108 @@
                     }
                 }
             }
+        },
+        "/register/verify/{confirmation_code}": {
+            "get": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Confirm registered user",
+                "description": "Confirm registered user in the system.",
+                "operationId": "confirmUser",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "confirmation_code",
+                        "in": "path",
+                        "description": "Confirmation code from email sent.",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        },
+        "/login": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Login user",
+                "description": "Login user to the system.",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": "Created user object",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/UserLogin"
+                        }
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "successful operation"
+                    }
+                }
+            }
         }
     },
-    "definitions": {}
+    "definitions": {
+        "User": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "password_confirmation": {
+                    "type": "string"
+                },
+                "avatar": {
+                    "type": "string"
+                },
+                "twitter_provider_id": {
+                    "type": "string"
+                },
+                "facebook_provider_id": {
+                    "type": "string"
+                },
+                "confirmation_code": {
+                    "type": "string"
+                }
+            },
+            "xml": {
+                "name": "User"
+            }
+        },
+        "UserLogin": {
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            },
+            "xml": {
+                "name": "UserLogin"
+            }
+        }
+    }
 }
